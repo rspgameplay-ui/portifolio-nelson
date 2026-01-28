@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Nelson Pires</title>
+    <style>
+        /* --- RESET --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: #111;
+            font-family: sans-serif;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .portfolio-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .project-card {
+            width: 100%;
+            display: block;
+            margin-bottom: 50px;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+            background-color: #1a1a1a; /* Cor de fundo enquanto a imagem carrega */
+            
+            /* Animação suave */
+            transition: transform 0.5s ease; 
+            cursor: pointer;
+            
+            /* Evita CLS (mudança de layout) */
+            min-height: 200px; 
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project-card:hover {
+            transform: scale(1.15); 
+            z-index: 10; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+        }
+
+        @media (max-width: 768px) {
+            .project-card:hover { transform: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <main class="portfolio-container">
+        
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_01.png" alt="Capa" loading="eager">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_02.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_03.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_04.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_05.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_06.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_07.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_08.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_09.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_10.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_11.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_12.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_13.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_14.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_15.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_16.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_17.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_18.png" alt="Img" loading="lazy">
+        </div>
+
+        <div class="project-card">
+            <img src="imagem/PORTFOLIO_2025_Página_19.png" alt="Img" loading="lazy">
+        </div>
+
+    </main>
+
+    <footer style="text-align:center; padding: 50px; color: #555;">
+        <p>© 2025 Nelson Pires Portfólio.</p>
+    </footer>
+
+</body>
+</html>
